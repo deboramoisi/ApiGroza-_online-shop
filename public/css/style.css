@@ -1,0 +1,40 @@
+img, .textt {
+    height:50vw;
+    width:40vw;
+  }
+
+  .textt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+
+a {
+  text-decoration: none;
+}
+
+#apicole {
+  
+  img {
+    height: 300px;
+    width: 250px;
+    transition: all 1s;
+  }
+}
+
+img:hover {
+      transform: scale(1.05);
+}
+
+.color-primary-bgg: {
+  background-color: #D9A30E;
+}
+
+.color-primaryy {
+  color: #D9A30E;
+}
